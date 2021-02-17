@@ -7,10 +7,17 @@ body {
   background-color: white;
 }
 header {
+  display: flex;
+  align-items: center;
   padding: 20px;
   font-family: "Times New Roman", Times, serif;
   background-color: black;
   color: #ffffff;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 35px;
 }
 header nav {
   padding-top: 15px;
@@ -23,10 +30,6 @@ header nav ul {
   list-style-type: none;
 }
 
-header h1 {
-  display: inline-block;
-  font-size: 35px;
-}
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
@@ -41,13 +44,15 @@ header nav ul li {
 } */
 .about-me {
   margin-bottom: 20px;
-  padding: 50px;
-  height: 200px;
+  padding: 200px;
   font-family: "Times New Roman", Times, serif;
   background-color: rgb(163, 191, 241);
   color: #ffffff;
 }
-.projects {
+#projects {
   background-color: rgb(163, 191, 241);
   color: #ffffff;
+}
+#picture-me {
+  width: 150px;
 }
